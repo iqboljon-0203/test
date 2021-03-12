@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dars 9</title>
+</head>
+<body>
+    <div class="box">
+        <form  class="form" action="https://echo.htmlacademy.ru" method="POST">
+         <fieldset>
+             <legend>F.I.O</legend>
+            <label class="label">
+                <p>Ismi</p>
+                <input  type="text" name="ismi" placeholder="Ismingizni kiriting" minlength="4" maxlength="12"
+                value="Iqboljon" required>
+            </label>
+            <label class="label">
+                <p>Yoshingiz</p>
+                <input  type="number" name="Yoshi" placeholder="Yoshingizni kiriting"" min="18" max="70" required>
+            </label>
+         </fieldset>
+         <fieldset class="gender">
+            <legend>Jinsingiz</legend>
+           <label class="label">
+               <p>Erkak</p>
+               <input  type="radio" name="jinsi" value="Erkak" checked required>
+           </label>
+           <label class="label">
+               <p>Ayol</p>
+               <input  type="radio" name="jinsi" value="Ayol" required>
+           </label>
+        </fieldset>
+        <fieldset class="language">
+            <legend>Biladigan tillaringiz</legend>
+           <label class="label">
+               <p>English</p>
+               <input  type="checkbox" name="til" value="English" required>
+           </label>
+           <label class="label">
+               <p>Russian</p>
+               <input  type="checkbox" name="til" value="Russian" required>
+           </label>
+           <label class="label">
+            <p>Uzbek</p>
+            <input  type="checkbox" name="til" value="Uzbek" checked required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Manzilingiz</legend>
+            <select name="mamlakat" >
+                <option value="uk">UK</option>
+                <option value="us" disabled>USA</option>
+                <option value="uzb" selected>UZB</option>
+                <option value="chn">CHINA</option> 
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>O'zim haqimda</legend>
+            <textarea  class="textarea" name="Men haqimda" placeholder="O'zim haqimda">
+
+            </textarea>
+
+        </fieldset>
+            <button class="form-button" type="reset">Tozalash</button>
+            <button class="form-button" type="submit">Jo'natish</button>
+        </form>
+    </div>
+    
+</body>
+</html>

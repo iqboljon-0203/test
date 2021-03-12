@@ -1,0 +1,2 @@
+GET=ma'lumot olish uchun
+POST=ma'lumot yasash uchun
